@@ -167,7 +167,7 @@ class AppManifest(Gtk.Window):
         html = urlopen(url)
         tree = ElementTree()
         tree.parse(html)
-        games_xml = tree.getiterator('game')
+        games_xml = tree.iter('game')
         for game in games_xml:
             appid = int(game.find('appID').text)
             name = game.find('name').text

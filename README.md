@@ -1,4 +1,4 @@
-Steam AppManifest generator (Patched to work with modern XML formatting updates)
+Steam AppManifest generator
 ===========================
 
 This is a short python script that tricks Steam for Linux into downloading non-Linux apps.
